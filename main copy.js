@@ -15,7 +15,7 @@ submit.addEventListener("click", () => {
     if (user.email === password.value) {
       alert("Muvaffaqiyatli o'tdingiz");
     } else {
-      alert("Wrong password");
+      alert("Wrong email");
     }
   }
   if (user) {
