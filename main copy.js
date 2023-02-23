@@ -11,12 +11,14 @@ const submit = document.getElementById("submit");
 
 submit.addEventListener("click", () => {
   const user = users.find((user) => user.email === email.value);
-  if (user) {
-    if (user.password === password.value) {
-      window.location.href = "table.html";
-      alert("Muvaffaqiyatli o'tdingiz");
-    }
-  } else {
-    alert("Wrong password !" + " " + "Wrong Email !");
-  }
+  window.location.href = "table.html";
+
+  // if (user) {
+  //   if (user.password === password.value) {
+  //     window.location.href = "table.html";
+  //     alert("Muvaffaqiyatli o'tdingiz");
+  //   }
+  // } else {
+  //   alert("Wrong password !" + " " + "Wrong Email !");
+  // }
 });
