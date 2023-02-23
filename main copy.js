@@ -1,11 +1,7 @@
 let users = [
   {
-    email: "ali@gmail.com",
-    password: "12345678",
-  },
-  {
-    email: "vali@gmail.com",
-    password: "000000",
+    email: "jahongir.developer18@gmail.com",
+    password: "20041808joha",
   },
 ];
 
