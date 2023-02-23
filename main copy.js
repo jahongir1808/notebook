@@ -12,9 +12,7 @@ const submit = document.getElementById("submit");
 submit.addEventListener("click", () => {
   const user = users.find((user) => user.email === email.value);
   if (user) {
-    if (user.email === password.value) {
-      alert("Muvaffaqiyatli o'tdingiz");
-    } else {
+    if (user.email !== password.value) {
       alert("Wrong email");
     }
   }
