@@ -14,7 +14,7 @@ submit.addEventListener("click", () => {
   if (user) {
     if (user.password === password.value) {
       window.location.href = "table.html";
-      // alert("Muvaffaqiyatli");
+      alert("Muvaffaqiyatli o'tdingiz");
     }
   } else {
     alert("Wrong password");
